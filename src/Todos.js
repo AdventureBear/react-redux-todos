@@ -22,7 +22,6 @@ class  Todo extends Component {
   }
 
   updateTodo(e) {
-    debugger
     this.toggleEdit()
     this.props.updateTodo(this.props.id)
   }

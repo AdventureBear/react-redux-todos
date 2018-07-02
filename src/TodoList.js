@@ -20,7 +20,6 @@ class TodoList extends Component {
       })
   }
   updateTodo (id ) {
-    debugger
     this.props.dispatch ({
       type: "UPDATE_TODO",
       id,
@@ -38,7 +37,6 @@ class TodoList extends Component {
   }
 
   removeTodo (id, e){
-    debugger
     this.props.dispatch({
       type: "REMOVE_TODO",
         id
